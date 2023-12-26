@@ -1,1 +1,26 @@
+**INSTALL SSH SERVER**
+1. sebelum masuk ke install kita update dan upgrade dulu 
+![image](https://github.com/clonedone0102/webserver/assets/121450258/4576430d-5481-4d5b-a3d6-d36aef8c156a)
+![image](https://github.com/clonedone0102/webserver/assets/121450258/aa0274ae-90f4-436b-aed1-c60c8a1a4baa)
+2. kita masuk ke super user dengan ketikan "sudo su" setelah itu masukan password ubuntu kita
+3. setelah itu kita ketikan "apt install ssh"
+![image](https://github.com/clonedone0102/webserver/assets/121450258/932888eb-671f-4d87-9251-adf0dffcb1d1)
+4. setelah itu kita ketikan " systemctl start ssh " untuk mengaktifkan sshnya
+![image](https://github.com/clonedone0102/webserver/assets/121450258/60f451b6-bf6e-4822-ba76-bcaf75edcaf0)
+5. setelah itu ketikan " systemctl enable ssh " untuk menghidupkan system sshnya
+![image](https://github.com/clonedone0102/webserver/assets/121450258/3642015f-1f40-4cbe-a769-a486a9e92bb9) 
+6. setelah itu kita ketikan " systemctl status ssh " untuk melihat apakah ssh sudah berjalan atau belum.
+![image](https://github.com/clonedone0102/webserver/assets/121450258/fcdc1c89-101e-4b7c-8790-9c24939e596c)
+7. jika sudah berjalan kita eksekusi 
+
+**RUN SSH**
+1. kita buka terminal pada windows
+2. sebelum di run kita lihat ip pada ubuntu yang kita gunakan
+3. disini saya mendapatkan ip 192.168.217.10/24
+![image](https://github.com/clonedone0102/webserver/assets/121450258/7d683796-db9a-4be7-94fd-2fa952d9bbcd)
+4. setelah itu kita ketikan pada terminal yang ada di windows
+![image](https://github.com/clonedone0102/webserver/assets/121450258/fad9f9d2-f6fe-430a-a872-85d5b1475697)
+5. setelah itu kita masukan password yang ada di ubuntu kita
+6. dan ya ssh sudah bisa di jalankan
+![image](https://github.com/clonedone0102/webserver/assets/121450258/b4093b45-d37c-45a4-930f-ae5ba40878cd)
 
