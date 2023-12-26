@@ -1,1 +1,15 @@
-
+**INSTALL APACHE2**
+1. sebelum masuk ke penginstalan kita update terlebih dahulu ubuntu " apt update "
+2. setelah itu kita ketikan "apt install apache2"
+![image](https://github.com/settings/replies/assets/121450258/a2c86002-06c0-4648-b9de-5179e0816a85)
+3. setelah terinstall kita setting firewall agar webserver dapat muncul di web browser, ketikan " sudo ufw allow Apache "
+![image](https://github.com/settings/replies/assets/121450258/762245fe-fe16-4640-8234-c80b0de0e436)
+4. kita check apakah apache sudah mendapatkan izin firewall, ketikan " sudo ufw status "
+![image](https://github.com/settings/replies/assets/121450258/c07b32fa-99be-4fc1-86a5-381d6a88cef4)
+5.  setelah itu kita ketikan " systemctl start apache2 " untuk mengaktifkannya
+![image](https://github.com/settings/replies/assets/121450258/39af37c4-f56f-4d51-bda9-3c571b6c5b3a)
+6. setelah itu ketikan " systemctl status apache2 " untuk melihat apakah sudah berjalan.
+![image](https://github.com/settings/replies/assets/121450258/30bcbffa-faac-495f-aece-2c63def7520d)
+7. setelah semua berjalan kita ketikan " http://192.168.217.10 " sesuaikan dengan ip yang digunakan untuk ssh server
+![image](https://github.com/settings/replies/assets/121450258/8c74858e-3ddf-4726-8bde-4cf42800b2cd)
+9. jika tampilan sudah terlihat seperti itu maka apache dan webserever sudah sukses dijalankan.
